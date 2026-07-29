@@ -1,0 +1,25 @@
+# ========= Input =========
+input_dir: "raw/raw-concat/Fung/Soil"
+
+# ========= Output =========
+outdir: "preprocessing/results/ITS_fungi_soil_fastp"
+
+# ========= FASTQ pattern =========
+pattern: "*_R{1,2}.fastq.gz"
+
+# ========= fastp container =========
+fastp_container: "/home/FCAM/covando/ecotourism-microbiome/containers/fastp/0.24.0/fastp_0.24.0.sif"
+
+# ========= fastp settings =========
+fastp_threads: 4
+
+# Sliding-window quality trimming
+cut_window_size: 4
+cut_mean_quality: 20
+
+# Additional adaptive trimming
+cut_front: true
+cut_tail: true
+
+# Adapter handling
+detect_adapter_for_pe: true

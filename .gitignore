@@ -1,0 +1,23 @@
+# Nextflow
+work/
+.nextflow/
+.nextflow.log*
+.trace*
+.timeline*
+.report*
+.dag*
+
+logs/
+*.err
+*.out
+
+null/
+
+results/
+
+raw/
+
+.DS_Store
+containers/
+preprocessing/results/
+preprocessing/work/

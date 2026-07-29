@@ -1,0 +1,31 @@
+# ========= Run metadata  =========
+run_label: "16S_bacteria_sediment"
+notes: "Bacteria 16S from sediment. QIIME2 enabled; PICRUSt2 enabled for 16S."
+
+# ========= Inputs =========
+input: "metadata/samplesheet_16S_bacteria_sediment.csv"
+
+# ========= Enable extra outputs for downstream analyses =========
+qiime2: true
+picrust: true
+
+# ========= Primers (Cutadapt via ampliseq) =========
+FW_primer: "GTGYCAGCMGCCGCGGTAA"
+RV_primer: "CCGYCAATTYMTTTRAGTTT"
+
+# ========= Cutadapt trimming behavior =========
+cutadapt_min_overlap: 10
+cutadapt_max_error_rate: 0.12
+double_primer: true
+# retain_untrimmed: false   # uncomment to keep reads without primers
+
+# ========= DADA2 (denoising) =========
+trunclenf: 230
+trunclenr: 220
+max_ee: 2                  # optional
+trunc_qmin: 2                # optional
+ignore_failed_filtering: true
+min_read_counts: 1
+
+# ========= Taxonomy =========
+dada_ref_taxonomy: "silva=138.2"

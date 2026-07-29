@@ -1,0 +1,10 @@
+sampleID,forwardReads,reverseReads
+BEZ_Water_1,raw/raw-concat/Bac/Water/BEZ_Water_1_R1.fastq.gz,raw/raw-concat/Bac/Water/BEZ_Water_1_R2.fastq.gz
+BEZ_Water_2,raw/raw-concat/Bac/Water/BEZ_Water_2_R1.fastq.gz,raw/raw-concat/Bac/Water/BEZ_Water_2_R2.fastq.gz
+BEZ_Water_3,raw/raw-concat/Bac/Water/BEZ_Water_3_R1.fastq.gz,raw/raw-concat/Bac/Water/BEZ_Water_3_R2.fastq.gz
+IEZ_Water_1,raw/raw-concat/Bac/Water/IEZ_Water_1_R1.fastq.gz,raw/raw-concat/Bac/Water/IEZ_Water_1_R2.fastq.gz
+IEZ_Water_2,raw/raw-concat/Bac/Water/IEZ_Water_2_R1.fastq.gz,raw/raw-concat/Bac/Water/IEZ_Water_2_R2.fastq.gz
+IEZ_Water_3,raw/raw-concat/Bac/Water/IEZ_Water_3_R1.fastq.gz,raw/raw-concat/Bac/Water/IEZ_Water_3_R2.fastq.gz
+AEZ_Water_1,raw/raw-concat/Bac/Water/AEZ_Water_1_R1.fastq.gz,raw/raw-concat/Bac/Water/AEZ_Water_1_R2.fastq.gz
+AEZ_Water_2,raw/raw-concat/Bac/Water/AEZ_Water_2_R1.fastq.gz,raw/raw-concat/Bac/Water/AEZ_Water_2_R2.fastq.gz
+AEZ_Water_3,raw/raw-concat/Bac/Water/AEZ_Water_3_R1.fastq.gz,raw/raw-concat/Bac/Water/AEZ_Water_3_R2.fastq.gz

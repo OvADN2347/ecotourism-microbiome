@@ -1,0 +1,10 @@
+sampleID,forwardReads,reverseReads
+BEZ_Soil_1,raw/raw-concat/Arch/Soil/BEZ_Soil_1_R1.fastq.gz,raw/raw-concat/Arch/Soil/BEZ_Soil_1_R2.fastq.gz
+BEZ_Soil_2,raw/raw-concat/Arch/Soil/BEZ_Soil_2_R1.fastq.gz,raw/raw-concat/Arch/Soil/BEZ_Soil_2_R2.fastq.gz
+BEZ_Soil_3,raw/raw-concat/Arch/Soil/BEZ_Soil_3_R1.fastq.gz,raw/raw-concat/Arch/Soil/BEZ_Soil_3_R2.fastq.gz
+IEZ_Soil_1,raw/raw-concat/Arch/Soil/IEZ_Soil_1_R1.fastq.gz,raw/raw-concat/Arch/Soil/IEZ_Soil_1_R2.fastq.gz
+IEZ_Soil_2,raw/raw-concat/Arch/Soil/IEZ_Soil_2_R1.fastq.gz,raw/raw-concat/Arch/Soil/IEZ_Soil_2_R2.fastq.gz
+IEZ_Soil_3,raw/raw-concat/Arch/Soil/IEZ_Soil_3_R1.fastq.gz,raw/raw-concat/Arch/Soil/IEZ_Soil_3_R2.fastq.gz
+AEZ_Soil_1,raw/raw-concat/Arch/Soil/AEZ_Soil_1_R1.fastq.gz,raw/raw-concat/Arch/Soil/AEZ_Soil_1_R2.fastq.gz
+AEZ_Soil_2,raw/raw-concat/Arch/Soil/AEZ_Soil_2_R1.fastq.gz,raw/raw-concat/Arch/Soil/AEZ_Soil_2_R2.fastq.gz
+AEZ_Soil_3,raw/raw-concat/Arch/Soil/AEZ_Soil_3_R1.fastq.gz,raw/raw-concat/Arch/Soil/AEZ_Soil_3_R2.fastq.gz

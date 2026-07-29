@@ -1,0 +1,33 @@
+# ========= Run metadata (for humans) =========
+run_label: "ITS_fungi_sediment"
+notes: "Fungi ITS from sediment. QIIME2 enabled for downstream tables; PICRUSt2 not applicable."
+
+# ========= Inputs =========
+input: "metadata/samplesheet_ITS_fungi_sediment.csv"
+
+# ========= Enable extra outputs for downstream analyses =========
+qiime2: true
+# picrust: false  # ITS runs: PICRUSt2 not applicable
+
+# ========= Primers (Cutadapt via ampliseq) =========
+#FW_primer: "GTGARTCATCGAATCTTTG"
+#RV_primer: "TCCTCCGCTTATTGATATGC"
+
+# ========= Cutadapt trimming behavior =========
+skip_cutadapt: true
+
+#cutadapt_min_overlap: 10
+#cutadapt_max_error_rate: 0.12
+#double_primer: true
+# retain_untrimmed: false   # uncomment to keep reads without primers
+
+# ========= DADA2 (denoising) =========
+trunclenf: 0
+trunclenr: 0
+max_ee: 2                  # optional
+trunc_qmin: 2                # optional
+
+# ========= Taxonomy =========
+sintax_ref_taxonomy: "unite-fungi=10.0"
+cut_its: "its2"
+
