@@ -1,7 +1,7 @@
 run_label	samplesheet	qiime2	picrust	FW_primer	RV_primer	cutadapt_min_overlap	cutadapt_max_error_rate	double_primer	trunclenf	trunclenr
-16S_archaea_sediment	metadata/samplesheet_16S_archaea_sediment.csv	true	true	TYAATYGGANTCAACRCC	CRGTGWGTRCAAGGRGCA	10	0.12	true	240	200
-16S_archaea_water	metadata/samplesheet_16S_archaea_water.csv	true	true	TYAATYGGANTCAACRCC	CRGTGWGTRCAAGGRGCA	10	0.12	true	240	200
-16S_bacteria_sediment	metadata/samplesheet_16S_bacteria_sediment.csv	true	true	GTGYCAGCMGCCGCGGTAA	CCGYCAATTYMTTTRAGTTT	10	0.12	true	240	200
-16S_bacteria_water	metadata/samplesheet_16S_bacteria_water.csv	true	true	GTGYCAGCMGCCGCGGTAA	CCGYCAATTYMTTTRAGTTT	10	0.12	true	240	200
-ITS_fungi_sediment	metadata/samplesheet_ITS_fungi_sediment.csv	true	NA	GTGARTCATCGAATCTTTG	TCCTCCGCTTATTGATATGC	10	0.12	true	220	180
-ITS_fungi_water	metadata/samplesheet_ITS_fungi_water.csv	true	NA	GTGARTCATCGAATCTTTG	TCCTCCGCTTATTGATATGC	10	0.12	true	220	180
+16S_archaea_sediment	metadata/samplesheet_16S_archaea_sediment.csv	true	true	TYAATYGGANTCAACRCC	CRGTGWGTRCAAGGRGCA	10	0.12	true	230	230
+16S_archaea_water	metadata/samplesheet_16S_archaea_water.csv	true	true	TYAATYGGANTCAACRCC	CRGTGWGTRCAAGGRGCA	10	0.12	true	230	230
+16S_bacteria_sediment	metadata/samplesheet_16S_bacteria_sediment.csv	true	true	GTGYCAGCMGCCGCGGTAA	CCGYCAATTYMTTTRAGTTT	10	0.12	true	230	220
+16S_bacteria_water	metadata/samplesheet_16S_bacteria_water.csv	true	true	GTGYCAGCMGCCGCGGTAA	CCGYCAATTYMTTTRAGTTT	10	0.12	true	230	220
+ITS_fungi_sediment	metadata/samplesheet_ITS_fungi_sediment.csv	true	NA	GTGARTCATCGAATCTTTG	TCCTCCGCTTATTGATATGC	10	0.12	true	0	0
+ITS_fungi_water	metadata/samplesheet_ITS_fungi_water.csv	true	NA	GTGARTCATCGAATCTTTG	TCCTCCGCTTATTGATATGC	10	0.12	true	0	0
