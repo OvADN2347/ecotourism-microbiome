@@ -1,4 +1,4 @@
-Ecotourism Microbiome Pipeline
+Ecotourism Microbiota Pipeline
 Overview
 
 This repository contains a reproducible workflow for processing and analyzing environmental microbiome sequencing data generated from:
